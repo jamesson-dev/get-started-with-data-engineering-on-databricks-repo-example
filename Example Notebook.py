@@ -5,7 +5,7 @@
 
 # COMMAND ----------
 
-data = [[1, "Elia"], [2, "Teo"], [3, "Fang"]]
+data = [[1, "Elia"], [2, "Teo"], [3, "James"]]
 sdf = spark.createDataFrame(data, schema="id LONG, name STRING")
 display(sdf)
 
